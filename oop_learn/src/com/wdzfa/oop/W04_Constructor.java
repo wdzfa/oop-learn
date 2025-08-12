@@ -1,3 +1,5 @@
+package com.wdzfa.oop;
+
 class Polos {
     String dataString;
     int dataInteger;

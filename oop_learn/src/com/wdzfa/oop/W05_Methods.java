@@ -1,3 +1,5 @@
+package com.wdzfa.oop;
+
 class MahasiswaNew {
     String nama; // = "nama asli";
     String NIM;
