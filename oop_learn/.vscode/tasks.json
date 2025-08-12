@@ -8,7 +8,7 @@
             "args": [
                 "-cp",
                 "./bin",
-                "com.wdzfa.oop.W06_Latihan1"
+                "com.wdzfa.oop.W08_ReferenceOfObject"
             ],
             "group": {
                 "kind": "build",
