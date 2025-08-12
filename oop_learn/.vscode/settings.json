@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "editor.codeActionsOnSave": {
+
+    },
+    "editor.fontSize": 12,
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme": "Dracula Theme Soft"
+}
