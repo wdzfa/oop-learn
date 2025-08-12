@@ -9,11 +9,6 @@ class Player {
     Weapon weapon;  // object member
     Armor armor;
 
-    Player(String name, double health){
-        this.name = name;
-        this.health = health;
-    }
-
     void equipWeapon(Weapon weapon){
         this.weapon = weapon;
     }
@@ -28,6 +23,31 @@ class Player {
         this.weapon.display();
         this.armor.display();
     }
+
+    // dengan return dan parameter
+    Player(String name, double health){
+        this.name = name;
+        this.health = health;
+    }
+
+    void defence(double attackPower){
+        // disini akan mengambil damage nya
+        double damage;
+        if (this.armor.defencePower < attackPower) {
+            damage = attackPower - this.armor.defencePower;
+        } else {
+            damage = 0;
+        }
+        System.out.println(this.name + " gets damage " + damage);
+    }
+
+    // tanpa return dengan parameter
+    void attack(Player player){
+        double attackPower = this.weapon.attackPower;
+        System.out.println(this.name + " attacking " + player.name + " with power " + attackPower);
+        player.defence(attackPower);
+    }
+
 }
 
 // senjata
@@ -35,6 +55,7 @@ class Weapon{
     double attackPower;
     String name;
 
+    // constructor
     Weapon(String name, double attackPower){
         this.name = name;
         this.attackPower = attackPower;
@@ -86,6 +107,12 @@ public class W06_Latihan1{
         player2.equipArmor(kaos);
         player2.display();
 
-        System.out.println("Armor Name : " + player1.armor.name);
+        // System.out.println("Armor Name : " + player1.armor.name);
+
+        System.out.println("\nPERTEMPURAN");
+        System.out.println("\nEpisode - 1\n");
+        player1.attack(player2);
+        System.out.println("\nEpisode - 2\n");
+        player2.attack(player1);
     }
 }
