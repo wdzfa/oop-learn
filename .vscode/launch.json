@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "W03_ClassAndObject",
+            "request": "launch",
+            "mainClass": "com.wdzfa.oop.W03_ClassAndObject",
+            "projectName": "oop-learn_e6975338"
+        },
+        {
+            "type": "java",
+            "name": "W04_Constructor",
+            "request": "launch",
+            "mainClass": "com.wdzfa.oop.W04_Constructor",
+            "projectName": "oop-learn_e6975338"
+        },
+        {
+            "type": "java",
+            "name": "W05_Methods",
+            "request": "launch",
+            "mainClass": "com.wdzfa.oop.W05_Methods",
+            "projectName": "oop-learn_e6975338"
+        },
+        {
+            "type": "java",
+            "name": "W06_Latihan1",
+            "request": "launch",
+            "mainClass": "com.wdzfa.oop.W06_Latihan1",
+            "projectName": "oop-learn_e6975338"
+        }
+    ]
+}
