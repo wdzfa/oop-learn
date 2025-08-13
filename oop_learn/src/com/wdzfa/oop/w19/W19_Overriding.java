@@ -1,5 +1,9 @@
 package com.wdzfa.oop.w19;
 
+/*
+ * Overriding: Menimpa (override) metode dari superclass di subclass dengan implementasi baru.
+ */
+
 public class W19_Overriding {
     public static void main(String[] args) {
         
@@ -11,6 +15,6 @@ public class W19_Overriding {
         W19_HeroStrenght hero2 = new W19_HeroStrenght();
         hero2.name = "Mount Lady";
         hero2.defencePower = 100;
-        hero2.show();
+        hero2.show(); // ini akan mencari di class sendiri, kalau ga ada print yang di superclass
     }
 }

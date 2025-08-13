@@ -1,5 +1,9 @@
 package com.wdzfa.oop.w18;
 
+/*
+ * Inheritance: Konsep pewarisan di mana sebuah kelas (subclass) dapat mewarisi properti dan metode dari kelas lain (superclass).
+ */
+
 public class W18_Inheritance {
     public static void main(String[] args) {
         

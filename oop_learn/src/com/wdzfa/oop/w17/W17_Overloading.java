@@ -4,6 +4,10 @@ public class W17_Overloading {
 
     public static void main(String[] args) {
         // overloading pada constructor
+        /*
+         * Overloading: Membuat beberapa metode dengan nama yang sama dalam satu kelas,
+         * tetapi dengan parameter yang berbeda (baik jumlah, tipe, atau urutannya).
+         */
         W17_Player player1 = new W17_Player("Saitama"); // bisa pake input string
         W17_Player player2 = new W17_Player(); // bisa tanpa input
 
