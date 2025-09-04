@@ -8,6 +8,7 @@ import com.wdzfa.oop.w26.hero.W26_HeroStrenght;
 public class Abstract {
     public static void main(String[] args) {
         
+        // membuat object dr class non abstract
         W26_HeroIntel hero1 = new W26_HeroIntel("otong");
         hero1.display();
 

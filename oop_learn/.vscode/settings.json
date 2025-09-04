@@ -7,7 +7,7 @@
     "editor.codeActionsOnSave": {
 
     },
-    "editor.fontSize": 12,
+    "editor.fontSize": 10,
     "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Dracula Theme Soft"
+    "workbench.colorTheme": "Dracula Theme"
 }
